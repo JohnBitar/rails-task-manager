@@ -1,0 +1,7 @@
+
+<h1>
+<%= @task.completed ? "Good job you are one step closer to success" : "You have to #{@task.description.upcase} !"  %>
+
+</h1>
+
+<%= link_to "Back to other tasks", tasks_path%>
